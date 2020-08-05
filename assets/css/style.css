@@ -1,0 +1,8 @@
+@media screen and (max-width: 900px) {
+    a{
+        color aquamarine;
+    }
+    h1 {
+        font-size: 200px;
+    }
+}

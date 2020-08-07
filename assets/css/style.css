@@ -1,56 +1,114 @@
 
 
 body{
-    margin:40px;
+    margin:10px;
     padding:0;
     text-align:center;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    padding: 10px 25px;
+    background-color: #223B5C;
+  }
 
 
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #9ECCCF;
+    
+    
+  }
+    header a {
+      text-decoration: none;
+      color: #9ECCCF;
+    }
 
-}
+    header nav {
+     margin: 7px 0;
+    }
 
-.gridcontainer {
+   header nav ul {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+   }
+
+    header nav ul li a {
+      padding: 10px 15px;
+      font-weight: lighter;
+      font-size:1.55vw;
+      }
+
+      .section p {
+          text-align: right;
+      } 
+
+.container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: auto;
-    grid-auto-rows: minmax(100px, auto);
-    border-left-color: 5px solid black;
+    grid-auto-rows: minmax(100px, 300px);
+    margin: 10px 0 0 40px;
+}
+
+    .grid-item{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
     
-  }
-  .box-one {
+ #Bio {
+     margin: 40px;
+     color: black;
+     font-size: 16px;
+     text-align: left;
+ }
+
+      
+  
+  .grid-item1 .image {
     grid-column: 3 / 9;
     grid-row: 1 / 5;
     color: #2b208d;
     border: solid;
-    background-color: goldenrod;
-    
+    overflow: hidden;
+        
   }
-  .box-two { 
+  .grid-item2 .image { 
     grid-column: 9 / 12;
     grid-row: 1 / 3;
     color: #2b208d;
     border: solid;
+    overflow: hidden;
   }
-  .box-three {
+  .grid-item3 .image {
     grid-column: 9/12;
     grid-row: 3 / 5;
     color: #2b208a;
     border: solid;
+    overflow: hidden;
 
   }
-  .box-four {
+  .grid-item4 .image{
     grid-column: 3 / 6;
     grid-row: 5 / 7;
     color: #2b2cc3;
     border: dashed;
+    overflow: hidden;
   }
-  .box-five {
+  .grid-item5 .image{
     grid-column: 6 / 9;
     grid-row: 5 / 7;
     color: #3b2cc1;
     border: solid;
-    font-size: 32px;
-    background-image: url(/assets/images/hero-bg.jpg);
+    overflow: hidden;
   }

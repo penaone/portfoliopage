@@ -4,18 +4,35 @@
     --dark-blue:#223B5C;
 }
 
-body{
+body
+{
     margin:0 0 0 250px;
     padding:0;
     text-align:auto;
 }
 
+.hero.background img
+ {
+   width: 2px;
+   margin: 10px 0;
+   background: var(--dark-blue);
+
+
+ } 
+#About-Me, #Work, #Contact-Me {
+  margin: 0 0 0 40px;
+  padding: 0 40px;
+  display:flex;
+  flex-direction: row;
+}
+
+
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-
-    padding: 10px 25px;
+    margin:0;
+    padding: 0;
     background-color: var(--dark-blue);
   }
 
@@ -59,8 +76,8 @@ header {
           
 
       } 
-      #Bio {
-        margin: 40px;
+      Bio {
+        margin: 200px;
         color: black;
         font-size: 16px;
         text-align: left;
@@ -172,12 +189,28 @@ header {
         {
     opacity: 100;
     background-position:left;
-    background-color: cadetblue;
+    background-color:var(--light-blue);
     position: absolute;
     bottom:10%;
     left:10%;
-    color: blue;
+    color: var(--blue);
     font-size: 30px;
+    }
 
+    .hero .background img{
+      display: flex;
+      height:100%;
+      width: 100%;
 
-}
+      
+    }
+    .hero .background .subheader
+    {opacity: 100;
+      background-position: right;
+      background-color: var(--light-blue);
+      position: absolute;
+      bottom: 100%;
+      color: var(--dark-blue);
+      font-size: 40px;
+
+    }

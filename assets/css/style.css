@@ -8,6 +8,7 @@ body {
   margin: 0 0 0 0px;
   padding: 0;
   text-align: auto;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero.background img {
@@ -25,6 +26,8 @@ body {
   padding: 0 40px;
   display: flex;
   flex-direction: row;
+  font:Roboto;
+  font-size: 2vw;
 }
 
 
@@ -205,6 +208,7 @@ Bio {
   left: 10%;
   color: whitesmoke;
   font-size: 1vw;
+  font:Roboto;
 }
 
 .hero .background img {

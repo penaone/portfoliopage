@@ -6,7 +6,7 @@
 
 body
 {
-    margin:0 0 0 250px;
+    margin:0 0 0 0px;
     padding:0;
     text-align:auto;
 }
@@ -68,14 +68,22 @@ header {
       font-weight: lighter;
       font-size:1.55vw;
       }
+      p {
+        display: inline;
+      }
 
       h2 {
           text-align: right;
-          color: var(--dark-blue);
+          color: white;
           background-color: var(var(--light-blue))
           
 
       } 
+
+      #About-Me {
+        display: flexbox;
+        align-items: left;
+      }
       Bio {
         margin: 200px;
         color: black;
@@ -93,7 +101,11 @@ header {
     
       
 }
-     
+
+.sidebar{
+  display: grid;
+
+}     
   
   .grid-item1{
     grid-column: 1 / 7;
@@ -189,11 +201,11 @@ header {
         {
     opacity: 100;
     background-position:left;
-    background-color:var(--light-blue);
+    background-color:transparent;
     position: absolute;
     bottom:10%;
     left:10%;
-    color: var(--blue);
+    color:whitesmoke;
     font-size: 30px;
     }
 
@@ -204,7 +216,7 @@ header {
 
       
     }
-    .hero .background .subheader
+    .hero .background
     {opacity: 100;
       background-position: right;
       background-color: var(--light-blue);
@@ -214,3 +226,26 @@ header {
       font-size: 40px;
 
     }
+.subheader 
+{background-color: var(--dark-blue);
+  display: grid;
+
+}
+.subheader-content{
+  display: flexbox;
+  position: right;
+
+}
+
+.text{
+  color: white;
+}
+@media (max-width:600px){
+
+}
+
+@media (min-width:601px){
+
+}
+
+

@@ -103,6 +103,8 @@ header {
 }
 
 .sidebar{
+  float:left;
+  width:25%;
   display: grid;
 
 }     
@@ -240,6 +242,13 @@ header {
 .text{
   color: white;
 }
+
+.flex-row {
+  float:right;
+  width: 75%
+}
+
+
 @media (max-width:600px){
 
 }

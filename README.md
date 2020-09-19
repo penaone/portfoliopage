@@ -8,4 +8,6 @@ The about me information is accurate and real. The links are accurate and functi
 
 https://penaone.github.io/portfoliopage/
 
+The Group Project Munch-A-Movie was highly collaborated on. We often would have the page code opened on one computer while many of us were on discussing the changes. We collaborated through slack and google meets.
+
 

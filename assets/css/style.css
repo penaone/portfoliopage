@@ -106,6 +106,7 @@ Bio {
   grid-template-rows: (100px);
   grid-gap: 10px;
   font-size: 2vw;
+  
 
 
 }
@@ -208,8 +209,33 @@ Bio {
   left: 10%;
   color: whitesmoke;
   font-size: 1vw;
-  font:Roboto;
+  
 }
+
+a:link
+ {
+   color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited
+   {color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration:underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 .hero .background img {
   display: flex;

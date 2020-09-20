@@ -14,7 +14,7 @@ body {
 .hero.background img {
   width: 2px;
   margin: 10px 0;
-  background: var(--dark-blue);
+  background:rgb(36, 6, 36);
 
 
 }
@@ -37,7 +37,7 @@ header {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  background-color: var(--dark-blue);
+  background-color:rgb(53, 3, 53);
 }
 
 
@@ -257,7 +257,7 @@ a:link
 }
 
 .subheader {
-  background-color: var(--dark-blue);
+  background-color:rgb(46, 6, 46);
   display: grid;
 
 }
